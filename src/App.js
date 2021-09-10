@@ -20,12 +20,12 @@ class App extends Component {
           <BrowserRouter>
             <Navbar />
             <Banner />
-            <switch>
+            <Switch>
               <Route exact path="/">
                 <Productlist />
               </Route>
               <Route path="/StaticPage/:Id" component={StaticPage}></Route>
-            </switch>
+            </Switch>
           </BrowserRouter>
         </div>
         {/* for banner */}
