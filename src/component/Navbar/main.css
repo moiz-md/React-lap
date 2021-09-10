@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+}
+.navbar {
+  margin-bottom: 0px;
+  padding-left: 3%;
+}
+
+.navbar-nav {
+  padding-left: 58%;
+  word-spacing: normal;
+  padding-top: 1%;
+  font-size: 13px;
+  background-color: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar > img {
+  padding-right: 2%;
+  /* align-content: center; */
+  height: 75px;
+}
+@media screen and (max-width: 370px) {
+  .intro-bg > img {
+    width: 100%;
+  }
+}
+/* img.img1 {
+    height: 200px;
+    width: 90% !important;
+    object-fit: cover;
+    z-index: -4;
+  }
+  img {
+    height: 50px;
+  } */
+
+.feature-Product > h1 {
+  font-family: "Cabin", arial, sans-serif;
+  font-size: 25px;
+  text-align: center;
+  /* padding-bottom: 15px; */
+  padding-left: 12%;
+  font-family: inherit;
+  /* border-bottom: 2px solid cyan; */
+}
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+.feature-Product {
+  padding: 10px;
+  flex: 90%;
+}
+
+.button-wrappers {
+  padding: 10px;
+  flex: 10%;
+}
+
+.border {
+  border: white !important;
+  padding: 0% 42% 1% 42%;
+  background-color: transparent !important;
+  border: none;
+}
+
+h5.text-right {
+  padding-right: 5%;
+}
+
+/* 
+  .col-lg-4 > h5 {
+    padding-right: 5%;
+  } */
+/* .Wrap-H > h3 {
+    font-size: 15px;
+  }
+  
+  .Wrap-H > h4 {
+    padding: 0% 8% 2% 62%;
+    font-size: 13px;
+  }
+  .Wrap-H > h5 {
+    font-size: 13px;
+  }  */
+
+/* img.product1 {
+    height: 100%;
+    width: 75% !important;
+    object-fit: cover;
+    z-index: -4;
+  } */
