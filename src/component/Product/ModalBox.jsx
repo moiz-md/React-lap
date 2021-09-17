@@ -100,23 +100,10 @@ class ModalBox extends Component {
                     ref={this.inputRefName}
                   ></input>
                 </div>
+
                 <div className="form-group">
                   <label htmlFor="place-name" className="col-form-label">
-                    Place:
-                  </label>
-                  <input
-                    name="place"
-                    type="text"
-                    className="form-control"
-                    // id="recipient-name"
-                    // value={this.state.place}
-                    // onChange={this.handleInputChange}
-                    ref={this.inputRefPlace}
-                  ></input>
-                </div>
-                <div className="form-group">
-                  <label htmlFor="place-name" className="col-form-label">
-                    Downloads
+                    Price:
                   </label>
                   <input
                     name="Downloads"

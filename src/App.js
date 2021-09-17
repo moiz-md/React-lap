@@ -11,6 +11,9 @@ import Productlist from "./component/Product/productlist.jsx";
 import { Route, Router, BrowserRouter, Switch } from "react-router-dom";
 import StaticPage from "./component/Product/StaticPage.jsx";
 import Product from "./component/Product/Product.jsx";
+import Footer from "./Footer/footer";
+import AboutUs from "./About/AboutUs";
+import Contact from "./Contact/Contact";
 class App extends Component {
   render() {
     return (
@@ -19,12 +22,17 @@ class App extends Component {
         <div className="row">
           <BrowserRouter>
             <Navbar />
-            <Banner />
             <Switch>
               <Route exact path="/">
+                <Banner />
                 <Productlist />
+                <div className="align-bottom">
+                  <Footer />
+                </div>
               </Route>
               <Route path="/StaticPage/:Id" component={StaticPage}></Route>
+              <Route path="/about" component={AboutUs}></Route>
+              <Route path="/Contact" component={Contact}></Route>
             </Switch>
           </BrowserRouter>
         </div>

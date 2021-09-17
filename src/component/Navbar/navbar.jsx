@@ -1,6 +1,6 @@
 import { logDOM } from "@testing-library/react";
 import React from "react";
-import logo from "../assets/logo.png";
+import logo from "../../assets/logo.png";
 import { Link, Route, Router, Switch } from "react-router-dom";
 
 function Navbar() {
@@ -36,19 +36,21 @@ function Navbar() {
               </li>
 
               <li className="nav-item">
-                <Link className="nav-link" to="/Support">
-                  Feedback
-                </Link>
-              </li>
-
-              <li className="nav-item">
                 <Link className="nav-link" to="/Contact">
                   Contact <span className="glyphicon glyphicon-user"></span>
                 </Link>
               </li>
+
               <li className="nav-item">
-                <Link className="nav-link" to="/Members">
-                  Members <span className="glyphicon glyphicon-search"></span>
+                <Link className="nav-link" to="/Login">
+                  Login <span className="glyphicon glyphicon-log-in"></span>
+                </Link>
+              </li>
+
+              <li className="nav-item">
+                <Link className="nav-link" to="/Registration">
+                  Registration{" "}
+                  <span className="glyphicon glyphicon-search"></span>
                 </Link>
               </li>
             </ul>

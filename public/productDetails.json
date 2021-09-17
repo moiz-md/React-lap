@@ -1,93 +1,176 @@
 [
   {
     "Id": 1,
-    "Name": "SoftLand",
-    "Downloads": "4,206 Downloads",
+    "Name": "HP",
+    "Downloads": "₹74,990.00",
     "Image": "../../assets/product-image-1.png",
-    "Description": " Ansari Md Moiz"
-  ,"details":{"1":"RAM: 7", "2":"Processor: INTEL","3":"HDD 1TB","4":"Graphic :NVIDIA GEFORCE 1020TX"}},
+    "Description": "HP 15 (2021) Thin & Light Ryzen 3-3250 Laptop, 8 GB RAM, 1TB HDD, 39.62 cms (15.6) FHD Screen, Windows 10, MS Office (15s-gr0011AU)",
+    "details": {
+      "1": "Processor: 5th Gen AMD Ryzen 5 5600H (3.3GHz base clock speed, up to 4.2 GHz Max Boost Clock, 16MB L3 cache, 6 core, 12 threads)",
+      "2": "Memory & Storage: 8 GB DDR4-3200 MHz RAM, Up to 32 GB DDR4-3200 SDRAM (2 x 16 GB) | Storage: 512 GB PCIe NVMe TLC M.2 SSD",
+      "3": "Display: 40.9 cm (16.1) diagonal, FHD (1920 x 1080), 60 Hz Refresh Rate, IPS, edge-to-edge, micro-edge, 250 nits, 137 ppi, Color Gamut: 45% NTSC",
+      "4": "Operating System & Software: Pre-loaded Windows 10 Home with lifetime validity,Free upgrade to Windows 11* when available(Refer Microsoft Website) | Pre-installed Microsoft Office Home & Student 2019 | Alexa Built-in"
+    }
+  },
   {
     "Id": 2,
-    "Name": "Rapid",
-    "Downloads": "24,206 Downloads",
+    "Name": "Lenovo",
+    "Downloads": "₹54,990.00",
     "Image": "../../assets/product-image-12.png",
-    "Description": "Rapid is elegant and elegant to use multipuropse. Boostrap template with modern and simple web design .It will leave a solid impression pn everyone that"
-  ,"details":{"1":"RAM: 7", "2":"Processor: INTEL","3":"HDD 1TB","4":"Graphic :NVIDIA GEFORCE 1020TX"}},
+    "Description": " Lenovo V14 AMD RYZEN 3 3250U Laptop (4GB/1TB/Dos/14 HD / Iron Grey/ 3 Year Warranty/ 1.85Kg) 82C6000LIH",
+    "details": {
+      "1": "Processor: 11th Gen Intel Core i5-1135G7 | Speed: 2.4 GHz (Base) - 4.2 GHz (Max) | 4 Cores | 8MB Cache",
+      "2": "OS: Pre-Loaded Windows 10 Home with Lifetime Validity",
+      "3": "Display: 15.6 FHD (1920x1080) | Brightness : 250nits | Anti-Glare",
+      "4": "Camera (Built-in): 720p with Privacy Shutter | Fixed Focus | Integrated Dual Array Microphone"
+    }
+  },
   {
     "Id": 3,
-    "Name": "Biz Page",
-    "Downloads": "3,24,206 Downloads",
-    "Image": "../../assets/product-image-3.png",
-    "Description": "BizPage is modern visually stunning and creative multipuropse coroperative . Business HTML5 template built with Bootstrap framework . The sectioining code"
-  ,"details":{"1":"RAM: 9", "2":"Processor: AMD","3":"HDD 1TB","4":"Graphic :NVIDIA GEFORCE 1020TX"}},
+    "Name": "Apple MacBook Pro",
+    "Downloads": "₹1,12,990.00",
+    "Image": "../../assets/product-image-15.png",
+    "Description": "2020 Apple MacBook Pro (13.3-inch/33.78 cm, Apple M1 chip with 8‑core CPU and 8‑core GPU, 8GB RAM, 256GB SSD) - Space Grey",
+    "details": {
+      "1": "Get more done with up to 20 hours of battery life, the longest ever in a Mac",
+      "2": "8-core CPU delivers up to 2.8x faster performance to fly through workflows quicker than ever",
+      "3": "8-core GPU with up to 5x faster graphics for graphics-intensive apps and games 16-core Neural Engine for advanced machine learning",
+      "4": "8GB of unified memory so everything you do is fast and fluid",
+      "5": "Superfast SSD storage launches apps and opens files in an instant"
+    }
+  },
   {
     "Id": 4,
-    "Name": "mo",
-    "Downloads": "4,206 Downloads",
+    "Name": "ASUS",
+    "Downloads": "₹40,490.00",
     "Image": "../../assets/product-image-6.png",
-    "Description": "Softland is a modern and creative app landing HTML website template. Any one can use this template to showcase their app or services. Softland is an ultimate"
-  ,"details":{"1":"RAM: 9", "2":"Processor: AMD","3":"HDD 1TB","4":"Graphic :NVIDIA GEFORCE 1020TX"}},
+    "Description": "ASUS Vivobook 14 Core i3 10th Gen - (4 GB/1 TB HDD/Windows 10 Home) X409FA-BV301T Thin and Light Laptop (14.1 inch, Slate Grey, 1.6 kg)",
+    "details": {
+      "1": "Processor: 11th Gen Intel Core i5-1135G7 Processor, 2.4 GHz Base Speed, Up to 4.2 GHz Max Turbo Speed, 4 cores, 8 Threads, 8MB Cache",
+      "2": "Memory: 16GB LPDDR4X onboard 4266MHz with | Storage : 512GB M.2 NVMe PCIe 3.0 SSD",
+      "3": "Display : 13.3-inch (33.78 cms) FHD (1920 x 1080) 16:9, LED Backlit OLED, 400nits, Glossy Panel, 100% DCI-P3, Pantone Validated 88% Screen-to-Body Ratio  ",
+      "4": "Software Included: Pre-installed MS Office Home and Student 2019, McAfee Anti-Virus with 1-year validity | Operating System: Pre-loaded Windows 10 Home with lifetime validity"
+    }
+  },
   {
     "Id": 5,
-    "Name": "hardland",
-    "Downloads": "4,2026 Downloads",
-    "Image": "../../assets/product-image-2.png",
-    "Description": "BizPage is modern visually stunning and creative multipuropse coroperative . Business HTML5 template built with Bootstrap framework . The sectioining code."
-  ,"details":{"1":"RAM: 5", "2":"Processor: RYZEN","3":"HDD 1TB","4":"Graphic :NVIDIA GEFORCE 1020TX"}},
+    "Name": "ASUS",
+    "Downloads": "₹57,990.00",
+    "Image": "../../assets/product-image-12.png",
+    "Description": " Lenovo V14 AMD RYZEN 3 3250U Laptop (4GB/1TB/Dos/14 HD / Iron Grey/ 3 Year Warranty/ 1.85Kg) 82C6000LIH",
+    "details": {
+      "1": "Processor: 11th Gen Intel Core i5-1135G7 | Speed: 2.4 GHz (Base) - 4.2 GHz (Max) | 4 Cores | 8MB Cache",
+      "2": "OS: Pre-Loaded Windows 10 Home with Lifetime Validity",
+      "3": "Display: 15.6 FHD (1920x1080) | Brightness : 250nits | Anti-Glare",
+      "4": "Camera (Built-in): 720p with Privacy Shutter | Fixed Focus | Integrated Dual Array Microphone"
+    }
+  },
   {
     "Id": 6,
-    "Name": "SoftLand",
-    "Downloads": "4,20216 Downloads",
-    "Image": "../../assets/product-image-5.png",
-    "Description": "Softland is a modern and creative app landing HTML website template. Any one can use this template to showcase their app or services. Softland is an ultimate."
-  ,"details":{"1":"RAM: 5", "2":"Processor: AMD","3":"HDD 1TB","4":"Graphic :NVIDIA GEFORCE 1020TX"}},
+    "Name": "DELL",
+    "Downloads": "₹40,490.00",
+    "Image": "../../assets/product-image-3.png",
+    "Description": "Dell Vostro 3400 14 FHD Display Laptop (i3-1115G4 / 8GB / 256GB SSD / Integrated Graphics / Win10 + MSO / Black) D552190WIN9BE",
+    "details": {
+      "1": "Processor: 11th Generation Intel Core i3-1115G4 Processor (6MB Cache, up to 4.1 GHz)",
+      "2": "Memory & Storage:8GB, 4Gx1, DDR4, 2666MHz |256GB M.2 PCIe NVMe Solid State Drive (Boot)",
+      "3": "Display:14.0-inch FHD (1920 x 1080) Anti-glare LED Backlight Narrow Border WVA Display",
+      "4": "Operating System & Software:Windows 10 Home Single Language | Microsoft Office Home and Student 2019"
+    }
+  },
   {
     "Id": 7,
-    "Name": "Bey",
-    "Downloads": "4,20216 Downloads",
+    "Name": "HP",
+    "Downloads": "₹39,999.00",
     "Image": "../../assets/product-image-7.png",
-    "Description": "Softland is a modern and creative app landing HTML website template. Any one can use this template to showcase their app or services. Softland is an ultimate."
-  ,"details":{"1":"RAM: 5", "2":"Processor: INTEL","3":"HDD 1TB","4":"Graphic :NVIDIA GEFORCE 1020TX"}},
+    "Description": "HP 14 (2021) Thin & Light 11th Gen Core i3 Laptop, 8GB RAM, 256GB SSD, Intel UHD Graphics, 14-inch (35.56 cms) HD Screen,",
+    "details": {
+      "1": "QLED DISPLAY - Stream and browse on a gorgeous QLED touchscreen which touts virtually 100% color volume and stays vibrant even in direct sunlight",
+      "2": "SLIM 360 DESIGN - Seamlessly convert your ultra-slim, Royal Blue aluminum device from laptop to tablet in seconds",
+      "3": "POWERHOUSE PROCESSOR - Enjoy minimal lag, near-instantaneous startup, and 512GB of storage with the formidable 10th generation Intel Core i7 processor",
+      "4": "LONG-LASTING BATTERY - Work and stream to your heart’s content thanks to the fast-charging battery that lasts up to 20 hourss"
+    }
+  },
   {
     "Id": 8,
-    "Name": "Bey",
-    "Downloads": "4,20216 Downloads",
+    "Name": "MSI Brav",
+    "Downloads": "₹74,990.00",
     "Image": "../../assets/product-image-4.png",
-    "Description": "Rapid is elegant and elegant to use multipuropse. Boostrap template with modern and simple web design .It will leave a solid impression pn everyone that."
-  ,"details":{"1":"RAM: 5", "2":"Processor: INTEL","3":"HDD 1TB","4":"Graphic :NVIDIA GEFORCE 1020TX"}},
+    "Description": "MSI Bravo 15 Ryzen 7 4800H 15.6 (39.62cms) FHD Gaming Laptop (16GB/512GB SSD/144 Hz/Windows 10/ RX5500M,GDDR6 4GB/Black/1.86 kg), A4DDR-212IN",
+    "details": {
+      "1": "AMD Ryzen7-4800H processor, upto 4.2 GHz",
+      "2": "15.6 FHD (1920*1080), IPS-Level 144Hz Thin Bezel Display",
+      "3": "Memory: 8*2 GB DDR4 RAM, 3200Mhz with Radeon RX5500M 4GB Graphics | Storage: 512GB NVMe M.2 SSD",
+      "4": "This genuine MSI laptop comes with 1 year Carry-in warranty from MSI covering manufacturing defects and not covering physical damage. For more details, see Warranty section",
+      "5": "MSI System Control ManagerMSI BurnRecovery MSI Battery Calibration MSI Help Desk Norton Internet Security (trail 60days) Norton Studio (Metro) (permanent free) Nvidia GeForce Experience Nahimic 3 Dragon Center Gaming Mode MSI App player"
+    }
+  },
   {
     "Id": 9,
-    "Name": "Bey",
-    "Downloads": "4,20216 Downloads",
-    "Image": "../../assets/product-image-2.png",
-    "Description": "BizPage is modern visually stunning and creative multipuropse coroperative . Business HTML5 template built with Bootstrap framework . The sectioining code."
-  ,"details":{"1":"RAM: 5", "2":"Processor: INTEL","3":"HDD 1TB","4":"Graphic :NVIDIA GEFORCE 1020TX"}},
+    "Name": "SAMSUNG",
+    "Downloads": "₹44,990.00",
+    "Image": "../../assets/product-image-5.png",
+    "Description": "Samsung Galaxy Book Flex 13.3” | Samsung Laptop with QLED Display and Intel Core i7 Processor | Galaxy Book Flex Laptop with Long Battery Life and Bluetooth-Enabled",
+    "details": {
+      "1": "QLED DISPLAY - Stream and browse on a gorgeous QLED touchscreen which touts virtually 100% color volume and stays vibrant even in direct sunlight",
+      "2": "SLIM 360 DESIGN - Seamlessly convert your ultra-slim, Royal Blue aluminum device from laptop to tablet in seconds",
+      "3": "POWERHOUSE PROCESSOR - Enjoy minimal lag, near-instantaneous startup, and 512GB of storage with the formidable 10th generation Intel Core i7 processor",
+      "4": "LONG-LASTING BATTERY - Work and stream to your heart’s content thanks to the fast-charging battery that lasts up to 20 hourss"
+    }
+  },
   {
     "Id": 10,
-    "Name": "Bey",
-    "Downloads": "4,20216 Downloads",
+    "Name": "Apple iMac",
+    "Downloads": "₹99,900.00",
     "Image": "../../assets/product-image-10.png",
-    "Description": "Softland is a modern and creative app landing HTML website template. Any one can use this template to showcase their app or services. Softland is an ultimate."
-  ,"details":{"1":"RAM: 5", "2":"Processor: INTEL","3":"HDD 1TB","4":"Graphic :NVIDIA GEFORCE 1020TX"}},
+    "Description": "Apple iMac (21.5-inch/54.61 cm, 8GB RAM, 2.3GHz Dual-core 7th-Generation Intel Core i5 Processor, 256GB SSD Storage) - Silver",
+    "details": {
+      "1": "54.61cm/21.5-inch (diagonal) 1920-by-1080 resolution display",
+      "2": "Seventh-generation dual-core Intel Core i5 processor",
+      "3": "Intel Iris Plus Graphics 640 Ultrafast SSD storag",
+      "4": "Four USB-A ports Gigabit Ethernet port FaceTime HD camera",
+      "5": "iMac, Magic Keyboard, Magic Mouse 2, Power cord, Lightning to USB Cable."
+    }
+  },
   {
     "Id": 11,
-    "Name": "Bey",
-    "Downloads": "4,20216 Downloads",
-    "Image": "../../assets/product-image-13.png",
-    "Description": "Rapid is elegant and elegant to use multipuropse. Boostrap template with modern and simple web design .It will leave a solid impression pn everyone that."
-  ,"details":{"1":"RAM: 5", "2":"Processor: INTEL","3":"HDD 1TB","4":"Graphic :NVIDIA GEFORCE 1020TX"}},
+    "Name": "Apple iMac",
+    "Downloads": "1,59,900.00",
+    "Image": "../../assets/product-image-9.png",
+    "Description": "Apple iMac with Retina 5K Display (27-inch/68.58 cm, 8GB RAM, 3.1GHz 6-core 10th-Generation Intel Core i5 Processor, 256GB SSD Storage) - Silver",
+    "details": {
+      "1": "68.58cm/27-inch (diagonal) 5120-by-2880 Retina 5K display",
+      "2": "3.1GHz 6-core 10th-generation Intel Core i5 AMD Radeon Pro 5300 graphics Ultrafast SSD storage",
+      "3": "Two Thunderbolt 3 (USB-C) ports Four USB-A ports",
+      "4": "802.11ac Wi-Fi and Bluetooth 5.0 iMac, Magic Keyboard, Magic Mouse 2, Power cord, Lightning to USB Cable.",
+      "5": "1080p FaceTime HD camera"
+    }
+  },
   {
     "Id": 12,
-    "Name": "Bey",
-    "Downloads": "4,20216 Downloads",
+    "Name": "2021 Apple iMac",
+    "Downloads": "1,29,900.00",
     "Image": "../../assets/product-image-13.png",
-    "Description": "BizPage is modern visually stunning and creative multipuropse coroperative . Business HTML5 template built with Bootstrap framework . The sectioining code."
-  ,"details":{"1":"RAM: 5", "2":"Processor: INTEL","3":"HDD 1TB","4":"Graphic :NVIDIA GEFORCE 1020TX"}},
+    "Description": "2021 Apple iMac with 4.5K Retina Display (24-inch/60.96 cm, Apple M1 chip with 8-core CPU and 8-core GPU, 8GB RAM, 512GB) - Green",
+    "details": {
+      "1": "68.58cm/27-inch (diagonal) 5120-by-2880 Retina 5K display",
+      "2": "3.1GHz 6-core 10th-generation Intel Core i5 AMD Radeon Pro 5300 graphics Ultrafast SSD storage",
+      "3": "Two Thunderbolt 3 (USB-C) ports Four USB-A ports",
+      "4": "802.11ac Wi-Fi and Bluetooth 5.0 iMac, Magic Keyboard, Magic Mouse 2, Power cord, Lightning to USB Cable.",
+      "5": "1080p FaceTime HD camera"
+    }
+  },
   {
     "Id": 13,
-    "Name": "Bey",
-    "Downloads": "4,20216 Downloads",
+    "Name": "HP",
+    "Downloads": "₹54,990.00",
     "Image": "../../assets/product-image-12.png",
-    "Description": "Rapid is elegant and elegant to use multipuropse. Boostrap template with modern and simple web design .It will leave a solid impression pn everyone that."
- ,"details":{"1":"RAM: 5", "2":"Processor: INTEL","3":"HDD 1TB","4":"Graphic :NVIDIA GEFORCE 1020TX"} }
+    "Description": "HP 15 Thin & Light Ryzen 3-3250 Laptop, 4 GB RAM, 1TB HDD, 38.1 cms (15) FHD Screen, Windows 10, MS Office (15s-gr0006au)",
+    "details": {
+      "1": "QLED DISPLAY - Stream and browse on a gorgeous QLED touchscreen which touts virtually 100% color volume and stays vibrant even in direct sunlight",
+      "2": "SLIM 360 DESIGN - Seamlessly convert your ultra-slim, Royal Blue aluminum device from laptop to tablet in seconds",
+      "3": "POWERHOUSE PROCESSOR - Enjoy minimal lag, near-instantaneous startup, and 512GB of storage with the formidable 10th generation Intel Core i7 processor",
+      "4": "LONG-LASTING BATTERY - Work and stream to your heart’s content thanks to the fast-charging battery that lasts up to 20 hourss"
+    }
+  }
 ]
