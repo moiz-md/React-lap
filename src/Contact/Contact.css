@@ -49,7 +49,7 @@
 
 .containers .contactInfo .box {
   position: relative;
-  padding: 20px 100px;
+  padding: 40px 100px;
   display: flex;
 }
 .containers .contactInfo .box .icon {
@@ -126,7 +126,7 @@
   border: none;
   cursor: pointer;
   padding: 10px;
-  font-size: 18px;
+  font-size: 15px;
 }
 @media (max-width: 991px) {
   .contact {

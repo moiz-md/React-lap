@@ -1,8 +1,21 @@
 import React, { Component } from "react";
-import phone from "../assets/iphone1.png";
 import "./Contact.css";
 
 const Contact = () => {
+  const onSubmitForm = (e) => {
+    e.preventDefault();
+  };
+
+  // const onHandleSubmit = () => {
+  //   setFormData({
+  //     Name: "",
+  //     Email: "",
+  //   });
+  // };
+
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  // };
   return (
     <>
       <section className="contact">
@@ -43,11 +56,11 @@ const Contact = () => {
             </div>
           </div>
           <div className="contactForm">
-            <form>
+            <form onSubmit={(e) => onSubmitForm(e)}>
               <h2>Send Message</h2>
               <div className="inputBox">
                 <input type="text" className="" required="required" />
-                <span>Full Name</span>
+                <span>Name</span>
               </div>
 
               <div className="inputBox">
@@ -64,7 +77,7 @@ const Contact = () => {
                   type="submit"
                   className=""
                   value="Send"
-                  // onSubmit={(e) => onSubmitForm(e)}
+                  // onClick={this.onHandleSubmit}
                 />
               </div>
             </form>
@@ -76,3 +89,5 @@ const Contact = () => {
 };
 
 export default Contact;
+
+// onSubmit={(e) => onSubmitForm(e)}

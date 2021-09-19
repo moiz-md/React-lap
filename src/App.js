@@ -14,6 +14,9 @@ import Product from "./component/Product/Product.jsx";
 import Footer from "./Footer/footer";
 import AboutUs from "./About/AboutUs";
 import Contact from "./Contact/Contact";
+import Login from "./Login/Login";
+import Register from "./Registration/Register";
+
 class App extends Component {
   render() {
     return (
@@ -33,6 +36,8 @@ class App extends Component {
               <Route path="/StaticPage/:Id" component={StaticPage}></Route>
               <Route path="/about" component={AboutUs}></Route>
               <Route path="/Contact" component={Contact}></Route>
+              <Route path="/Login" component={Login}></Route>
+              <Route path="/Registration" component={Register}></Route>
             </Switch>
           </BrowserRouter>
         </div>
