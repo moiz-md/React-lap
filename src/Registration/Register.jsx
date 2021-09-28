@@ -25,7 +25,7 @@ const Register = () => {
           </div>
         </div>
         <div className="footer">
-          <button class="button login">Login</button>
+          <button class="button login">Register</button>
         </div>
       </div>
     </>

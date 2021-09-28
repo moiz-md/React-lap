@@ -10,10 +10,8 @@ function Banner() {
         src={process.env.PUBLIC_URL + "/assets/intro-bg.png"}
       />
       <span className="textover-banner">
-        <h4>Banner Title Comes Here</h4>
-        <p>
-          Someday someone will break youso badly that you’ll become unbreakable.
-        </p>
+        <h4>MICROTECH</h4>
+        <p>.NEXT INNOVATION</p>
         <div className="banner-logo ">
           <i className="fa fa-twitter"></i>
           <i className="fa fa-facebook-square"></i>
