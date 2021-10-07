@@ -33,20 +33,20 @@
   width: fit-content;
 }
 .form-group label {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .form-group input {
   margin-top: 4px;
-  min-width: 18em;
-  height: 37px;
+  min-width: 20em;
+  height: 30px;
   padding: 0px 10px;
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
   background-color: #f3f3f3;
   border: 0;
   border-radius: 4px;
-  margin-bottom: 7px;
+  margin-bottom: 4px;
   transition: all 250ms ease-in-out;
 }
 input:focus {
@@ -60,4 +60,27 @@ input:focus {
 
 .login {
   font-size: 18px;
+}
+
+textarea.form-control {
+  font-size: 15px;
+  margin-top: 2px;
+  min-width: 20em;
+  height: 25px;
+  padding: 0px 10px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f3f3f3;
+  border: 0;
+  border-radius: 4px;
+  margin-bottom: 4px;
+  transition: all 250ms ease-in-out;
+}
+
+.Dess button {
+  font-size: 12px;
+}
+
+.modal-dialog {
+  width: 200px;
 }

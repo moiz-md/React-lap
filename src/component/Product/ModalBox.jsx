@@ -1,5 +1,6 @@
 import React, { Component, createRef } from "react";
 import productImage1 from "../../assets/product-image-1.png";
+import "../../Login/Style.css";
 
 class ModalBox extends Component {
   constructor(props) {
@@ -44,20 +45,20 @@ class ModalBox extends Component {
     // const handleSubmit = (e) => {
     //   e.preventDefault();
     const portalDataName = this.inputRefName.current.value;
-    const portalDataPlace = this.inputRefPlace.current.value;
+    // const portalDataPlace = this.inputRefPlace.current.value;
     const portalDataDowmload = this.inputRefDownload.current.value;
     const portalDataDes = this.inputRefDesription.current.value;
 
     const newProduct = {
       Name: portalDataName,
-      Place: portalDataPlace,
+      // Place: portalDataPlace,
       Downloads: portalDataDowmload,
       Description: portalDataDes,
       Image: productImage1,
     };
     this.props.addProduct(newProduct);
 
-    console.log(portalDataName, portalDataPlace, portalDataDes);
+    console.log(portalDataName, portalDataDes);
   };
 
   render() {
@@ -132,7 +133,7 @@ class ModalBox extends Component {
                 </div>
               </form>
 
-              <div className="modal-footer float-left">
+              <div className="modal-footer float-left Dess">
                 <button
                   type="button"
                   className="btn btn-primary"

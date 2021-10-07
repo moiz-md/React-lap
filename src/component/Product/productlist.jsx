@@ -152,7 +152,7 @@ class productlist extends Component {
                 data-target="#addProductModal"
                 data-whatever="@mdo"
               >
-                Add Product{" "}
+                Add Product
               </button>
               {this.state.shouldPortalOpen ? (
                 <PortalComponent>

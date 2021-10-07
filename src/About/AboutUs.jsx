@@ -24,7 +24,7 @@ const AboutUs = () => {
               <h3>Ansari Md Moiz</h3>
               <h4>Web Developer</h4>
               <h6 className="profile-rating mt-3 mb-5">
-                RANKINGS: <sapn>1/10</sapn>
+                RANKINGS: <sapn>9/10</sapn>
               </h6>
 
               <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">

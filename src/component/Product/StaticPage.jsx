@@ -1,14 +1,12 @@
 import React, { Component } from "react";
 import { store } from "../..";
 
-
-
 class StaticPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
       productList: [],
-      renderDetail:[]
+      renderDetail: [],
     };
   }
 
@@ -25,25 +23,21 @@ class StaticPage extends Component {
             (item) => item.Id == [this.props.match.params.Id]
           ),
         });
-        let  renseritem = []
-        
-        for (const [ key,value] of Object.entries(this.state.productList[0].details)) {
-          renseritem.push(value)
-         }
-         console.log("DETAILS", this.state.productList[0].details, renseritem);
-      this.setState({renderDetail:renseritem}) 
+        let renseritem = [];
+
+        for (const [key, value] of Object.entries(
+          this.state.productList[0].details
+        )) {
+          renseritem.push(value);
+        }
+        console.log("DETAILS", this.state.productList[0].details, renseritem);
+        this.setState({ renderDetail: renseritem });
       })
       .catch((error) => {
         throw error;
       });
     this.setState({ isSelected: true });
- 
-  
-
-     
   }
-
-   
 
   render() {
     console.log("state", this.state.renderDetail);
@@ -54,7 +48,8 @@ class StaticPage extends Component {
           return (
             <div className="col-12 col-sm-12 col-lg-4" data-id={product.Id}>
               <img src={`../../assets/${product.Image}`} alt="" />
-              <div className="card-body d-flex justify-content-between align-items-center">
+
+              <div className="card-body d-flex justify-content-between align-items-center ">
                 <h4>
                   <span> {product.Name} </span>
                 </h4>
@@ -64,9 +59,12 @@ class StaticPage extends Component {
                 </h5>
               </div>
 
-        
-              {this.state.renderDetail.map(el => {
-                return <ul><li>{el}</li></ul>
+              {this.state.renderDetail.map((el) => {
+                return (
+                  <ul>
+                    <li>{el}</li>
+                  </ul>
+                );
               })}
             </div>
           );

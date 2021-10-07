@@ -49,12 +49,6 @@ export default function Product(props) {
           </figcaption>
         </figure>
       </div>
-
-      {/* <div className="col-6 col-sm-6 col-lg-4">
-        
-    
-       
-      </div> */}
     </>
   );
 }
