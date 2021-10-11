@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import loginImg from "../assets/login_3.png";
-import "./Style.css";
+import React, { Component } from "react"
+import loginImg from "../assets/login_3.png"
+import "./Style.css"
 
 const Login = () => {
   return (
@@ -27,6 +27,6 @@ const Login = () => {
         </div>
       </div>
     </>
-  );
-};
-export default Login;
+  )
+}
+export default Login

@@ -1,5 +1,5 @@
-import React from "react";
-import loginImg from "../assets/login_1.png";
+import React from "react"
+import loginImg from "../assets/login_1.png"
 const Register = () => {
   return (
     <>
@@ -29,6 +29,6 @@ const Register = () => {
         </div>
       </div>
     </>
-  );
-};
-export default Register;
+  )
+}
+export default Register

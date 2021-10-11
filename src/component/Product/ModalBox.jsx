@@ -1,65 +1,31 @@
-import React, { Component, createRef } from "react";
-import productImage1 from "../../assets/product-image-1.png";
-import "../../Login/Style.css";
+import React, { Component, createRef } from "react"
+import productImage1 from "../../assets/product-image-1.png"
+import "../../Login/Style.css"
 
 class ModalBox extends Component {
   constructor(props) {
-    super(props);
-    this.inputRefName = createRef();
-    this.inputRefPlace = createRef();
-    this.inputRefDownload = createRef();
-    this.inputRefDesription = createRef();
-    //   this.state = {
-    //     productName: "",
-    //     place: "",
-    //     description: "",
-    //   };
-    //   this.handleInputChange = this.handleInputChange.bind(this);
-    // }
-
-    // handleInputChange(event) {
-    //   const target = event.target;
-    //   const value = target.type === "checkbox" ? target.checked : target.value;
-    //   const name = target.name;
-
-    //   this.setState({
-    //     [name]: value,
-    //   });
-    // }
-
-    // addPortalProduct() {
-    //   console.log(
-    //     this.state.productName,
-    //     this.state.place,
-    //     this.state.description
-    //   );
-    //   this.setState({
-    //     productName: "",
-    //     place: "",
-    //     description: "",
-    //   });
+    super(props)
+    this.inputRefName = createRef()
+    this.inputRefPlace = createRef()
+    this.inputRefDownload = createRef()
+    this.inputRefDesription = createRef()
   }
-  addPortalProduct = (e) => {
-    e.preventDefault();
-    // this.inputRef.current.value;
-    // const handleSubmit = (e) => {
-    //   e.preventDefault();
-    const portalDataName = this.inputRefName.current.value;
-    // const portalDataPlace = this.inputRefPlace.current.value;
-    const portalDataDowmload = this.inputRefDownload.current.value;
-    const portalDataDes = this.inputRefDesription.current.value;
+  addPortalProduct = e => {
+    e.preventDefault()
+    const portalDataName = this.inputRefName.current.value
+    const portalDataDowmload = this.inputRefDownload.current.value
+    const portalDataDes = this.inputRefDesription.current.value
 
     const newProduct = {
       Name: portalDataName,
-      // Place: portalDataPlace,
       Downloads: portalDataDowmload,
       Description: portalDataDes,
       Image: productImage1,
-    };
-    this.props.addProduct(newProduct);
+    }
+    this.props.addProduct(newProduct)
 
-    console.log(portalDataName, portalDataDes);
-  };
+    console.log(portalDataName, portalDataDes)
+  }
 
   render() {
     return (
@@ -95,9 +61,6 @@ class ModalBox extends Component {
                     name="productName"
                     type="text"
                     className="form-control"
-                    // id="recipient-name"
-                    // value={this.state.productName}
-                    // onChange={this.handleInputChange}
                     ref={this.inputRefName}
                   ></input>
                 </div>
@@ -110,9 +73,6 @@ class ModalBox extends Component {
                     name="Downloads"
                     type="text"
                     className="form-control"
-                    // id="recipient-name"
-                    // value={this.state.place}
-                    // onChange={this.handleInputChange}
                     ref={this.inputRefDownload}
                   ></input>
                 </div>
@@ -123,13 +83,8 @@ class ModalBox extends Component {
                   <textarea
                     name="description"
                     className="form-control"
-                    // id="message-text"
-                    // value={this.state.description}
-                    // onChange={this.handleInputChange}
                     ref={this.inputRefDesription}
                   ></textarea>
-
-                  {/* <!-- <input type="text" className="form-control" id="recipient-name"> --> */}
                 </div>
               </form>
 
@@ -138,7 +93,7 @@ class ModalBox extends Component {
                   type="button"
                   className="btn btn-primary"
                   data-dismiss="modal"
-                  onClick={(e) => this.addPortalProduct(e)}
+                  onClick={e => this.addPortalProduct(e)}
                 >
                   Add
                 </button>
@@ -147,9 +102,8 @@ class ModalBox extends Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
-// ReactDOM.render(<ModalBox />, document.getElementById("portal-root"));
 
-export default ModalBox;
+export default ModalBox

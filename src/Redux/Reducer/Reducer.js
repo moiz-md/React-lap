@@ -1,8 +1,8 @@
-import { GET_PRODUCT, ADD_PRODUCT, DELETE_PRODUCT } from "../Constant/Constant";
+import { GET_PRODUCT, ADD_PRODUCT, DELETE_PRODUCT } from "../Constant/Constant"
 
 const initialState = {
   productDetails: [],
-};
+}
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
@@ -10,22 +10,22 @@ const reducer = (state = initialState, action) => {
       return {
         ...state,
         productDetails: action.payload,
-      };
+      }
     case ADD_PRODUCT:
       return {
         ...state,
         productDetails: state.productDetails.concat(action.payload),
-      };
+      }
     case DELETE_PRODUCT:
       return {
         ...state,
         productDetails: state.productDetails.filter(
-          (item) => item.id !== action.payload
+          item => item.id !== action.payload
         ),
-      };
+      }
     default:
-      return state;
+      return state
   }
-};
+}
 
-export default reducer;
+export default reducer

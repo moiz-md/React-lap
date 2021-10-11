@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import user from "../assets/user.png";
-import "./AboutUs.css";
+import React, { Component } from "react"
+import user from "../assets/user.png"
+import "./AboutUs.css"
 
 const AboutUs = () => {
   return (
@@ -174,7 +174,7 @@ const AboutUs = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default AboutUs;
+export default AboutUs

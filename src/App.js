@@ -1,21 +1,15 @@
-import React, { Component } from "react";
-// import Navbar from 'react-bootstrap/Navbar'
-// import Button from 'react-bootstrap/Button';
-// @import "~bootstrap/scss/bootstrap";
-// import "./App.css";
-import Banner from "./component/Banner/banner";
-// import Button from "./Navbar/Button/Button.jsx";
-import "./component/Navbar/main.css";
-import Navbar from "./component/Navbar/navbar";
-import Productlist from "./component/Product/productlist.jsx";
-import { Route, Router, BrowserRouter, Switch } from "react-router-dom";
-import StaticPage from "./component/Product/StaticPage.jsx";
-import Product from "./component/Product/Product.jsx";
-import Footer from "./Footer/footer";
-import AboutUs from "./About/AboutUs";
-import Contact from "./Contact/Contact";
-import Login from "./Login/Login";
-import Register from "./Registration/Register";
+import React, { Component } from "react"
+import Banner from "./component/Banner/banner"
+import "./component/Navbar/main.css"
+import Navbar from "./component/Navbar/navbar"
+import Productlist from "./component/Product/productlist.jsx"
+import { Route, BrowserRouter, Switch } from "react-router-dom"
+import StaticPage from "./component/Product/StaticPage.jsx"
+import Footer from "./Footer/footer"
+import AboutUs from "./About/AboutUs"
+import Contact from "./Contact/Contact"
+import Login from "./Login/Login"
+import Register from "./Registration/Register"
 
 class App extends Component {
   render() {
@@ -41,48 +35,9 @@ class App extends Component {
             </Switch>
           </BrowserRouter>
         </div>
-        {/* for banner */}
-        {/* <div className="row">
-          <Banner />
-        </div> */}
-        {/* for feature product */}
-        {/* <div className="row">
-          <Button />
-        </div> */}
-        {/* for content */}
-        {/* <div className="row">
-          <div className="col">
-            <Productlist />
-          </div> */}
-        {/* <div className="col-sm-4">
-            <Productlist />
-          </div>
-          <div className="col-sm-4">
-            <Productlist />
-          </div> */}
-        {/* </div> */}
       </div>
-
-      // <div className="App">
-      //   <Navbar />
-      //   <Banner />
-      //   <Button />
-      //   <Productlist />
-      //   {/* <h1>Learn React {name}</h1> */}
-      // </div>
-    );
+    )
   }
 }
 
-// const name = "Ansari Moiz";
-
-// function Homez() {
-//   return (
-//     <div>
-//       <h1>Home Page</h1>
-//       <p>This is my Page</p>
-//     </div>
-//   );
-// }
-
-export default App;
+export default App

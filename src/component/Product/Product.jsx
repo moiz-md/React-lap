@@ -1,10 +1,6 @@
-import React from "react";
-import "./Product.css";
-// import Product1 from "./assets/product-image-1.png";
-import { useHistory, Link } from "react-router-dom";
-// import { hashHistory } from "react-router";
-// import StaticPage from "./Navbar/Product/StaticPage.jsx";
-// import { browserHistory } from "react-router";
+import React from "react"
+import "./Product.css"
+import { useHistory, Link } from "react-router-dom"
 
 export default function Product(props) {
   return (
@@ -50,5 +46,5 @@ export default function Product(props) {
         </figure>
       </div>
     </>
-  );
+  )
 }

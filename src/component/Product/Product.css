@@ -9,9 +9,6 @@
   height: 100%;
   object-fit: cover;
 }
-/* .buttons-body {
-  padding-bottom: 20px;
-} */
 
 @media (min-width: 767px) and (max-width: 991px) {
   .col-lg-4 {

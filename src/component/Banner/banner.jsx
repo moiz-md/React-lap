@@ -1,5 +1,5 @@
-import React from "react";
-import "./Banner.css";
+import React from "react"
+import "./Banner.css"
 // import img2 from  "./assets/intro-bg.png";
 
 function Banner() {
@@ -11,7 +11,7 @@ function Banner() {
       />
       <span className="textover-banner">
         <h4>MICROTECH</h4>
-        <p>.NEXT INNOVATION</p>
+        <p>NEXT INNOVATION</p>
         <div className="banner-logo ">
           <i className="fa fa-twitter"></i>
           <i className="fa fa-facebook-square"></i>
@@ -20,7 +20,7 @@ function Banner() {
         </div>
       </span>
     </div>
-  );
+  )
 }
 
-export default Banner;
+export default Banner

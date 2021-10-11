@@ -1,23 +1,11 @@
-import React, { Component, useState } from "react";
-import "./Contact.css";
+import React, { Component, useState } from "react"
+import "./Contact.css"
 
 const Contact = () => {
-  const onSubmitForm = (e) => {
-    e.preventDefault();
-  };
+  const onSubmitForm = e => {
+    e.preventDefault()
+  }
 
-  // let [text, setName] = useState("");
-
-  // const onHandleSubmit = () => {
-  //   setFormData({
-  //     Name: "",
-  //     Email: "",
-  //   });
-  // };
-
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  // };
   return (
     <>
       <section className="contact">
@@ -25,7 +13,7 @@ const Contact = () => {
           <h2>Contact Us</h2>
           <p>For Support: moizmails@gmail.com | 9892747013</p>
         </div>
-        <div className="containers" onSubmit={(e) => onSubmitForm(e)}>
+        <div className="containers" onSubmit={e => onSubmitForm(e)}>
           <div className="contactInfo">
             <div className="box">
               <div className="icon">
@@ -88,9 +76,9 @@ const Contact = () => {
         </div>
       </section>
     </>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact
 
 // onSubmit={(e) => onSubmitForm(e)}

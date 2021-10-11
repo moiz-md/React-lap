@@ -1,16 +1,16 @@
-import React from "react";
+import React from "react"
 // import React, { Component } from "react";
-import "./Button.css";
-import ModalBox from "../Product/ModalBox";
-import PortalComponent from "../Product/PortalComponent";
-import { render } from "@testing-library/react";
+import "./Button.css"
+import ModalBox from "../Product/ModalBox"
+import PortalComponent from "../Product/PortalComponent"
+import { render } from "@testing-library/react"
 // import ReactDOM from "react-dom";
 
 // const portalRoot = document.getElementById("portal-root");
 class Button extends React.Component {
   // Button = (props) => {};
   constructor(props) {
-    super(props);
+    super(props)
   }
   render() {
     return (
@@ -38,10 +38,10 @@ class Button extends React.Component {
           </PortalComponent>
         </div>
       </div>
-    );
+    )
   }
 }
 
 // ReactDOM.render(<ModalBox />, document.getElementById("portal-root"));
 
-export default Button;
+export default Button

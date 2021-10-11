@@ -1,7 +1,7 @@
-import { logDOM } from "@testing-library/react";
-import React from "react";
-import logo from "../../assets/logo.png";
-import { Link, Route, Router, Switch } from "react-router-dom";
+import { logDOM } from "@testing-library/react"
+import React from "react"
+import logo from "../../assets/logo.png"
+import { Link, Route, Router, Switch } from "react-router-dom"
 
 function Navbar() {
   return (
@@ -58,7 +58,7 @@ function Navbar() {
         </nav>
       </div>
     </>
-  );
+  )
 }
 // function Homez() {
 //   return (
@@ -69,4 +69,4 @@ function Navbar() {
 //   );
 // }
 
-export default Navbar;
+export default Navbar
